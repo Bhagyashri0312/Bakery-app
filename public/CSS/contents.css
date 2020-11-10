@@ -1,0 +1,88 @@
+
+@media (min-width: 750px) {
+    .content {
+        display: flex;
+        align-items: center;
+        text-align: left; 
+    }
+}
+
+h1,
+h2,
+h3 {
+    font-weight: 900;
+    margin-top: 0;
+}
+
+h1 {
+    font-size: 50px;
+    margin-bottom: 2rem;
+    color : var(--space-color);
+    font-family: 'Grandstander', cursive;
+    text-align: center;
+}
+
+h2 {
+    font-size: 40px;
+    margin-bottom: var(--space-medium);
+    font-family:"Caveat", cursive;
+    color: 1C2B2D; 
+}
+
+
+h3 {
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: var(--space-small);
+    color : var(--space-color);
+    font-family:"Caveat", cursive;
+}
+
+
+h4{
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: var(--space-small);
+    color : var(--space-color);
+    font-family:"Caveat", cursive;
+}
+
+
+p {
+    margin-top: 0;
+    font-size: 20px;
+}
+
+hr {
+    margin-bottom: var(--space-big);
+}
+
+body {
+    box-sizing: border-box;
+    max-width: 1050px;
+    margin: 0 auto;
+    padding: var(--space-bigger) var(--space-medium) var(--space-big);
+    /*position: relative;
+    z-index: 1;*/
+    margin-bottom: 3.75rem;
+    /*overflow: hidden;*/
+    font-family: "Zilla Slab", serif;
+    color: 1C2B2D;
+    
+    
+}
+
+.separator{
+    height: 1.3125rem;
+    width: 100%;
+    background-image: url("https://www.muffin-manufaktur-berlin.de/images/layout/separator.png");
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 2.0625rem;
+}
+
+.content img{
+    width: 300px;
+    height:400px;
+}
